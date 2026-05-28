@@ -3,10 +3,8 @@
 
 using namespace std;
 
-template <typename T>
-class Matrix
+template <typename T> class Matrix
 {
-private:
     int rows;
     int cols;
     T** data;
