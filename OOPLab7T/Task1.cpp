@@ -13,6 +13,16 @@ template<typename T> void min(T* arr, int n, T& min)
     }
 }
 
+template<> void min(char* arr, int n, char& min)
+{
+    for (int i = 0; i < n; ++i)
+    {
+        char val = arr[i];
+        if (val < min)
+            min = val;
+    }
+}
+
 void task1()
 {
     cout << "Input the desired amount of elements : " << endl;
