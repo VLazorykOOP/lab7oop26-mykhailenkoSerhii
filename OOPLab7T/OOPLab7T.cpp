@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    cout << "Lab №7  \n";
+    cout << "Lab 7";
 
     cout << "Choose task to run" << endl;
     cout << "Task 1: Template functions" << endl;
